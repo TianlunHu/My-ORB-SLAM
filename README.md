@@ -18,7 +18,7 @@ I did some changes in source code to read and save the motion data like 3D posit
 ### KeyFrameTrajectory.txt :
 this file saves the motion data of every keyframe in sequence, the meaning of components in each line is:\
 
-[TimeStamp, Coord.x, Coord.y, Coord.Z, Quater.x, Quater.y, Quater.z, Quater.w, [4*4 Camera Matrix]]
+[TimeStamp, Coord.X, Coord.Y, Coord.Z, Quater.x, Quater.y, Quater.z, Quater.w, [4*4 Camera Matrix]]
 
 ### KeyPoints.txt :
 this file saves the 2D coordinates of the key points on every KeyFrames found with FAST operator :\
