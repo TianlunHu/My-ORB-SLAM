@@ -28,3 +28,5 @@ this file save the corresponding 3D MapPoint of each key points on each KeyFrame
 [TimeStamp, [3D MapPonit1], [3D KeyPoint2], ...... ]
 
 A sparse 3D Map and motion trajectory could be recovered from the saved data, however, ORB_SLAM itself can't determine this real scale and real orientation of the trajectory. More advanced algoriothm should be used in this case.
+
+### ---- The Examples of these data could be found in 'resulting_txt' folder ---- 
