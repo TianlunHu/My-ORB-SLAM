@@ -12,6 +12,9 @@ After the running of ORB_SLAM, these data would be downloaded in several .TXT fi
 ## Save data from ORB_SLAM:
 I did some changes in source code to read and save the motion data like 3D position of Keyframes and Map-Points, Quaternion also 4*4 Camera Matrix for every frame to reover the orientations.
 
+
+###              ---- The Examples of these data could be found in 'resulting_txt_files' folder ---- 
+
 ### KeyFrameTrajectory.txt :
 this file saves the motion data of every keyframe in sequence, the meaning of components in each line is:\
 
@@ -29,4 +32,3 @@ this file save the corresponding 3D MapPoint of each key points on each KeyFrame
 
 A sparse 3D Map and motion trajectory could be recovered from the saved data, however, ORB_SLAM itself can't determine this real scale and real orientation of the trajectory. More advanced algoriothm should be used in this case.
 
-### ---- The Examples of these data could be found in 'resulting_txt' folder ---- 
